@@ -101,7 +101,7 @@
 
 #### 第三步：熟悉和掌握命令行界面和常用的工具
 
-学习 [视频课程](https://github.com/neolee/wop-ecnu-pub/wiki/Video-Lectures) 中列出的所有支线课程，尤其是前三讲。
+学习 [视频课程](https://github.com/neolee/wop-ecnu-pub/wiki/Video-Lectures) 中列出的所有支线课程，尤其是标记“新手必看”的部分。
 
 ## 课程大纲
 > **重要提示**
