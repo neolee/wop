@@ -1,0 +1,42 @@
+{
+    "label_setup": {
+        "version": 1,
+        "labels": []
+    },
+    "weekly_report": {
+        "version": 1,
+        "generateTime": "0 0 12 * * 1"
+    },
+    "role": {
+        "version": 1,
+        "roles": [
+            {
+                "name": "replier",
+                "description": "Replier is responsible for reply issues in time",
+                "users": [
+                    "xiaoya-Esther",
+                    "sunshinemingo",
+                    "limj0825"
+                ],
+                "commands": []
+            },
+            {
+                "name": "anyone",
+                "description": "Anyone",
+                "users": [],
+                "commands": [
+                    "/self-assign"
+                ]
+            }
+        ]
+    },
+    "issue_reminder": {
+        "version": 1
+    },
+    "auto_label": {
+        "version": 1
+    },
+    "self_assign": {
+        "version": 1
+    }
+}
