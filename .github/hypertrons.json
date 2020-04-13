@@ -3,10 +3,6 @@
         "version": 1,
         "labels": []
     },
-    "weekly_report": {
-        "version": 1,
-        "generateTime": "0 0 12 * * 1"
-    },
     "role": {
         "version": 1,
         "roles": [
