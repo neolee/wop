@@ -137,8 +137,8 @@
 * [第九章 元组，集合，字典](p2-9-tuple-set-dict.ipynb)
 * [第十章 树](p2-a-tree.ipynb)
 * [第十一章 有限状态机](p2-b-fsm.ipynb)
-* 第十二章 数据和数据库
-* 第十三章 函数也是数据：进阶篇
+* [第十二章 数据和数据库](p2-c-database.ipynb)
+* [第十三章 函数也是数据：进阶篇](p2-d-functional-2.ipynb)
 
 #### 第三部分 应用篇
 
@@ -153,8 +153,8 @@
 2. [如何使用配套学习用书](x2-students-book.md)
 3. [Git 与 GitHub 入门](x3-git-github.ipynb)
 4. [正则表达式入门](x4-regex.ipynb)
-5. MySQL 配置指南
-6. Redis 配置指南
+5. [MySQL 配置指南](x5-mysql-setup.ipynb)
+6. [Redis 配置指南](x6-redis-setup.ipynb)
 
 #### 关于打开教材出错的说明
 
