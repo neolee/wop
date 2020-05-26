@@ -35,7 +35,7 @@ class TreeNode:
     def get_siblings(self, node):
         pass
     
-    def get_descendants(self):
+    def get_descendants(self, node):
         pass
     
     def get_tier(self, node):
