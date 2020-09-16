@@ -182,7 +182,7 @@ macOS 本质上是 Unix，所以命令行界面是自带现成的，在 macOS �
 * 输入：`xcode-select --install ↩︎` 这个命令会安装 Apple 开发工具包，是 Homebrew 需要的
 * 输入：`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ↩︎` 
 
-这个命令将下载并执行 Homebrew 的安装脚本，自动安装 Homebrew 到 /usr/local/ 目录下；注意提示 `Password:` 的时候输入你的登录密码并回车。
+这个命令将下载并执行 Homebrew 的安装脚本，自动安装 Homebrew 到 /usr/local/ 目录下；注意提示 `Password:` 的时候输入你的登录密码并回车（由于安全原因你输入的密码不会显示出来，输入完回车就好）。
 
 * 运行 Homebrew 自更新命令：`brew update ↩︎`
 * 运行 Homebrew 自检命令：`brew doctor ↩︎`
@@ -194,7 +194,8 @@ macOS 本质上是 Unix，所以命令行界面是自带现成的，在 macOS �
 如果前面的操作没有错误，Homebrew 就安装好了，我们建议立刻安装两个软件包，运行：
 
 ```shell
-brew install git python ↩︎
+brew install git ↩︎
+brew install python@3.7 ↩︎
 ```
 
 * *git* 是用于文件版本管理和协同的重要工具，大名鼎鼎的“程序员交友社区” GitHub.com 就是建立在 *git* 基础之上的；
@@ -202,7 +203,7 @@ brew install git python ↩︎
 
 > 把 GitHub.com 叫“交友社区”是个梗，其实 GitHub 是用于分享和协同开发的在线服务。
 
-> 目前 Python 3.8.0 已经正式发布，但 Homebrew 上最新的 python 包仍是 3.7 版本；因为 3.8 太新，还有不少第三方程序没有完全兼容，我们学习仍需要使用 3.7 版本，所以指定 Homebrew 安装 python 包。以后 Homebrew 的 python 包应该会升级到 3.8.x，那时我们也会随之更新这个指引。
+> 目前 Python 最新版本是 3.8.x，但我们学习仍推荐使用 3.7 版本，所以指定 Homebrew 安装 python@3.7 这个包。
 
 上述安装命令运行完毕之后可以运行 `brew list`，应会列出已经安装好的这两个软件包以及所有自动安装的依赖包。我们还可以输入 `python3 -V` 来查看新安装的 Python 的版本。
 
