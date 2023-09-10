@@ -67,13 +67,13 @@
 
 万事开头难，一开始快速清障前进，后面就会越来越顺。
 
-可以使用 GitHub 提供的 Issues 功能来提问，只要访问 [这个页面](https://github.com/neolee/wop-ecnu-pub/issues)，点击右上的 *`New issue`* 绿色按钮即可提出问题。这个系统基本上就像一个问答论坛，然后集成了和编程有关的功能，具体可以自己去摸索。。
+可以使用 GitHub 提供的 Issues 功能来提问，只要访问 [这个页面](https://github.com/neolee/wop-community/issues)，点击右上的 *`New issue`* 绿色按钮即可提出问题。这个系统基本上就像一个问答论坛，然后集成了和编程有关的功能，具体可以自己去摸索。。
 
 提问是有一些技巧的，经过思考和仔细编写的问题更容易得到靠谱答案。
 
 > 关于这个问题，有个近乎标准的答案在网上已经存在很久了，那就是大牛 Eric S. Raymond 2001 年发表在 BBS 上的 [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)，这篇文章从发表之后一直在不断更新修订，内容清晰详实，附有丰富的“好问题”和“蠢问题”样例，一看就明白；另有质量很不错的 [中文译文](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)（也是开源的）。请务必仔细阅读，尽量按照里面的建议来思考和组织你的问题。
 
-常见或者特别有价值的问题我们会整理出来放到课程 [Wiki](https://github.com/neolee/wop-ecnu-pub/wiki) 中，方便大家查阅。
+常见或者特别有价值的问题我们会整理出来放到课程 [Wiki](https://github.com/neolee/wop-community/wiki) 中，方便大家查阅。
 
 > Wiki 中还有课程相关的其他一些资源。
 
@@ -101,7 +101,7 @@
 
 #### 第三步：熟悉和掌握命令行界面和常用的工具
 
-学习 [视频课程](https://github.com/neolee/wop-ecnu-pub/wiki/Video-Lectures) 中列出的所有支线课程，尤其是标记“新手必看”的部分。
+学习 [视频课程](https://github.com/neolee/wop/wiki/Video-Lectures) 中列出的所有支线课程，尤其是标记“新手必看”的部分。
 
 ## 课程大纲
 > **重要提示**
@@ -158,9 +158,9 @@
 
 由于 GitHub 的某些 bug，点击上面的这些链接打开 *notebook* 时可能会出现 `Sorry, something went wrong. Reload?` 的错误，这时可改用下面的链接（*Jupyter Notebook* 官方提供的阅读器）：
 
-> [https://nbviewer.jupyter.org/github/neolee/wop-ecnu-pub/tree/master/](https://nbviewer.jupyter.org/github/neolee/wop-ecnu-pub/tree/master/)
+> [https://nbviewer.jupyter.org/github/neolee/wop/tree/master/](https://nbviewer.jupyter.org/github/neolee/wop/tree/master/)
 
 `ipynb` 后缀的文件就是 *notebook* 文件，文件名开头部分为篇章编号：`a` 对应第十章，`b` 对应第十一章，依此类推；`x` 开头的则是附录。
 
 ## 纠错反馈
-如果在学习过程中发现课程教材中的错误，也可以[通过 Issues 系统提出](https://github.com/neolee/wop-ecnu-pub/issues)。
+如果在学习过程中发现课程教材中的错误，也可以[通过 Issues 系统提出](https://github.com/neolee/wop-community/issues)。
