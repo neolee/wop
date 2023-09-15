@@ -106,14 +106,10 @@ scoop update
 如果一切无误，我们就可以着手安装 Python 了，运行：
 
 ```powershell
-scoop bucket add versions
-scoop update
-scoop install python37@3.7.4
+scoop install python
 ```
 
-> 目前 Python 3.8.0 已经正式发布，Scoop 上最新的 python 包就是 3.8.x 版本，但因为太新，一些我们会用到的第三方程序没有完全兼容，所以目前仍需使用 3.7.x（这里推荐使用课程本身开发时的 3.7.4 版本）。
-
-上述安装命令运行完毕之后可以再次运行 `scoop list`，应会列出已经安装好的几个软件包。我们还可以输入 `python -V` 来查看安装的 Python 的版本（应该是 3.7.4）。
+上述安装命令运行完毕之后可以再次运行 `scoop list`，应会列出已经安装好的几个软件包。我们还可以输入 `python -V` 来查看安装的 Python 的版本。
 
 另外有个常用的工具包叫 `busybox`，里面包含了大量 Unix、Linux、macOS 系统里常用的命令，让我们在 Windows 下也能使用这些命令，推荐安装：
 
@@ -195,15 +191,13 @@ macOS 本质上是 Unix，所以命令行界面是自带现成的，在 macOS �
 
 ```shell
 brew install git ↩︎
-brew install python@3.7 ↩︎
+brew install python ↩︎
 ```
 
 * *git* 是用于文件版本管理和协同的重要工具，大名鼎鼎的“程序员交友社区” GitHub.com 就是建立在 *git* 基础之上的；
 * *python* 这个包会安装 Python 完整的运行环境。
 
 > 把 GitHub.com 叫“交友社区”是个梗，其实 GitHub 是用于分享和协同开发的在线服务。
-
-> 目前 Python 最新版本是 3.8.x，但我们学习仍推荐使用 3.7 版本，所以指定 Homebrew 安装 python@3.7 这个包。
 
 上述安装命令运行完毕之后可以运行 `brew list`，应会列出已经安装好的这两个软件包以及所有自动安装的依赖包。我们还可以输入 `python3 -V` 来查看新安装的 Python 的版本。
 
