@@ -71,6 +71,8 @@ PowerShell 是 Windows 下的增强命令行环境，也是我们以后要用的
 
 在我们的编程生涯中会用到很多命令行软件，安装、卸载、更新和管理这些软件最简单的办法就是使用一个好用的软件包管理工具，Windows 下最好的命令行软件包管理工具就是 [Scoop](https://scoop.sh/)。
 
+> 由于官方版本的 Scoop 在国内访问有很多问题，我们目前建议采用针对国内访问优化的镜像服务 [scoop-cn](https://github.com/duzyn/scoop-cn)。
+
 下面的操作就在上一步打开的 ConEmu 的 PowerShell 命令行界面下运行。
 
 首先，安装 Scoop 需要一定的权限，通过下面两行命令来查看目前我们的权限，以及获取我们需要的权限：
@@ -80,14 +82,14 @@ PowerShell 是 Windows 下的增强命令行环境，也是我们以后要用的
 
 如上，将 *execution policy* 设置为 `RemoteSigned` 之后，就可以运行 Scoop 的安装命令了：
 
-* 输入 `iwr -useb get.scoop.sh | iex ↩︎`
+* 输入 `irm https://ghproxy.com/https://raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex ↩︎`
 
 这个命令会下载 Scoop 的安装脚本并执行，过程中会从几个不同的服务器下载安装一些软件，并对你的系统进行一系列配置。等待上述安装脚本执行完毕，如果中间有报错可以把错误提示截屏或者拷贝保存下。
 
 如果运行无误，Scoop 就安装好了，我们接着运行下面这几个命令：
 ```powershell
 scoop list
-scoop install git
+scoop install scoop-cn/git
 scoop update
 ```
 
@@ -106,7 +108,7 @@ scoop update
 如果一切无误，我们就可以着手安装 Python 了，运行：
 
 ```powershell
-scoop install python
+scoop install scoop-cn/python
 ```
 
 上述安装命令运行完毕之后可以再次运行 `scoop list`，应会列出已经安装好的几个软件包。我们还可以输入 `python -V` 来查看安装的 Python 的版本。
@@ -114,7 +116,7 @@ scoop install python
 另外有个常用的工具包叫 `busybox`，里面包含了大量 Unix、Linux、macOS 系统里常用的命令，让我们在 Windows 下也能使用这些命令，推荐安装：
 
 ```powershell
-scoop install busybox
+scoop install scoop-cn/busybox
 ```
 
 ### Scoop 相关疑难
